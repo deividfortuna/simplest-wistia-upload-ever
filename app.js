@@ -6,7 +6,7 @@
   app.controller('main', ['$sce', function ($sce) {
     var that = this;
     this.done = function (result) {
-      var url = 'http://fast.wistia.net/embed/iframe/' + result.hashed_id;
+      var url = 'https://fast.wistia.net/embed/iframe/' + result.hashed_id;
       that.loaded = true;
       that.url = $sce.trustAsResourceUrl(url);
     }

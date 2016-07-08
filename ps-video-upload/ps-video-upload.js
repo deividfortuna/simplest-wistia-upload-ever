@@ -19,8 +19,9 @@
             api_password: WISTIA.API_TOKEN
           },
           add: function (e, data) {
-            data.url = WISTIA.UPLOAD_URL;
             scope.progress = 0;
+            scope.fail = false;
+            data.url = WISTIA.UPLOAD_URL;
             data.submit();
           },
           done: function (e, data) {
