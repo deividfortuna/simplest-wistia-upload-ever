@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html ng-app="app" ng-controller="main as vm">
+<head>
+    <meta charset="utf-8">
+    <title>Upload Video Wistia</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/AngularJS-Toaster/toaster.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<toaster-container></toaster-container>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Upload Video</h3>
+            <iframe ng-src="{{vm.url}}" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="360"></iframe>
+            <ps-video-upload done="vm.done"></ps-video-upload>
+        </div>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/blueimp-file-upload/js/jquery.fileupload.js"></script>
+<script src="bower_components/blueimp-file-upload/js/jquery.fileupload-angular.js"></script>
+<script src="bower_components/AngularJS-Toaster/toaster.js"></script>
+
+
+<script src="app.js"></script>
+<script src="ps-video-upload/ps-video-upload.js"></script>
+</body>
+</html>

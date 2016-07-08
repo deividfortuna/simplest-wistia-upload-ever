@@ -1,0 +1,25 @@
+{
+  "name": "upload.process.st",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Deivid Fortuna <deividfortuna@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "jquery-ui": "^1.11.4",
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "blueimp-file-upload": "^9.12.5",
+    "AngularJS-Toaster": "angularjs-toaster#^2.0.0"
+  }
+}

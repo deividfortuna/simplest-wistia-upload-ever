@@ -1,0 +1,15 @@
+{
+  "name": "upload.process.st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && bower install && http-server ./src -o"
+  },
+  "author": "Deivid Fortuna <deividfortuna@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "latest"
+  }
+}

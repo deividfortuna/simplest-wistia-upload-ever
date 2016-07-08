@@ -1,0 +1,26 @@
+ps-video-upload .btn-file {
+    overflow: hidden;
+    position: relative;
+}
+
+ps-video-upload .btn-file input[type=file] {
+    background: #FFF;
+    cursor: inherit;
+    display: block;
+    filter: alpha(opacity=0);
+    font-size: 100px;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+ps-video-upload .progress {
+    height: 20px;
+    margin: 15px 0;
+    width: 350px;
+}
